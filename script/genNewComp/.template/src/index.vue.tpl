@@ -1,5 +1,5 @@
 <template>
-  <div class="my-{{ compClassName }}">
+  <div class="ss-{{ compClassName }}-container">
     我是{{ compZhName }}组件
   </div>
 </template>
@@ -9,7 +9,7 @@
 </script>
 
 <style scoped>
-.my-{{ compClassName }} {
+.ss-{{ compClassName }}-container {
   
 }
 </style>

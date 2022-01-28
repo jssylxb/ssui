@@ -9,7 +9,7 @@
  import { createRouter, createWebHashHistory, RouterOptions } from 'vue-router'
 
  const routes = [{
-    title: '按钮',
+    title: '阿斯达',
     name: 'Button',
     path: '/components/Button',
     component: () => import('packages/Button/docs/README.md'),

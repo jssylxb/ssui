@@ -1,7 +1,9 @@
 {
   "name": "@js77388/ssui",
   "version": "0.0.1",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/ssui.umd.js",
   "module": "./dist/ssui.es.js",
   "exports": {
@@ -17,6 +19,7 @@
     "gen": "node ./script/genNewComp/index.js"
   },
   "dependencies": {
+    "@js77388/ssui": "^0.0.1",
     "element-plus": "^1.3.0-beta.9",
     "prismjs": "^1.25.0",
     "vue": "^3.2.23"

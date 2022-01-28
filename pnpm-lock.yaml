@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@js77388/ssui': ^0.0.1
   '@types/node': ^16.11.12
   '@vitejs/plugin-vue': ^1.10.2
   element-plus: ^1.3.0-beta.9
@@ -21,6 +22,7 @@ specifiers:
   vue-tsc: ^0.28.10
 
 dependencies:
+  '@js77388/ssui': 0.0.1
   element-plus: 1.3.0-beta.9_vue@3.2.29
   prismjs: 1.26.0
   vue: 3.2.29
@@ -102,6 +104,16 @@ packages:
   /@emmetio/scanner/1.0.0:
     resolution: {integrity: sha512-8HqW8EVqjnCmWXVpqAOZf+EGESdkR27odcMMMGefgKXtar00SoYNSryGv//TELI4T3QFsECo78p+0lmalk/CFA==}
     dev: true
+
+  /@js77388/ssui/0.0.1:
+    resolution: {integrity: sha512-WvcGduLASUw4hF6lWpnJxtC8oWtYPtL+FKXhLG45/MdUDjElfqaKJW5R/gEsArIlQtp9MlxwxW9ASrE7aPvL7Q==}
+    dependencies:
+      element-plus: 1.3.0-beta.9_vue@3.2.29
+      prismjs: 1.26.0
+      vue: 3.2.29
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+    dev: false
 
   /@nodelib/fs.scandir/2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}

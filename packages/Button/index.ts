@@ -7,4 +7,6 @@ export const ButtonPlugin: Plugin = {
   },
 };
 
-export { Button };
+export {
+  Button,
+};

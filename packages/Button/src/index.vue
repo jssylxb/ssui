@@ -1,12 +1,20 @@
 <template>
-  <el-button type="primary" @click="$emit('click', $event)">
-    <slot></slot>
-  </el-button>
+  <div class="ss-button-container">
+    <span class="title">标题</span>
+    <el-button type="primary">
+      <slot></slot>
+    </el-button>
+  </div>
 </template>
 
 <script lang="ts" setup>
 import { ElButton } from 'element-plus';
-defineEmits(['click']);
 </script>
 
-<style scoped lang="less"></style>
+<style scoped lang="less">
+.ss-button-container {
+  .title {
+    color: red;
+  }
+}
+</style>
