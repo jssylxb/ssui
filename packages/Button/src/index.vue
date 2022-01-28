@@ -11,7 +11,7 @@
 import { ElButton } from 'element-plus';
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .ss-button-container {
   .title {
     color: red;
