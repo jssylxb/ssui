@@ -43,7 +43,7 @@ export default {
   },
   computed: {
     previewSourceCode() {
-      return this.sourceCode.replace(/'\.\.\/\.\.\/index'/g, `'@tencent/ssui'`);
+      return this.sourceCode.replace(/'\.\.\/\.\.\/index'/g, `'@sunac/ssui'`);
     },
   },
   async mounted() {

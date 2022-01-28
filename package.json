@@ -1,6 +1,6 @@
 {
   "name": "@js77388/ssui",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "files": ["dist"],
   "main": "./dist/ssui.umd.js",
   "module": "./dist/ssui.es.js",
